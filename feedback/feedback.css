@@ -1,0 +1,88 @@
+body {
+    background-color: #a9bcc6;
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px #798f8c;
+}
+
+h1 {
+    letter-spacing: 0.2vw;
+    padding: 1em;
+}
+
+input {
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    margin-bottom: 5vw;
+    box-shadow: 0em 0.5em 0.5em 0em #5e6668;
+    outline: none;
+    text-align: center;
+    width: 30%;
+}
+
+select {
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    margin-bottom: 5vw;
+    box-shadow: 0em 0.5em 0.5em 0em #5e6668;
+    outline: none;
+    text-align: center;
+    width: 30%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    box-shadow: 0em 0.5em 0.5em 0em #5e6668;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    width: 30%;
+}
+
+.submit {
+    background-color: #c7aabc;
+    box-shadow: 0em 0.5em 0.5em 0em #513e5c;
+    border: none;
+    margin-top: 5vw;
+    height: 5vw;
+    width: 20vw;
+    transition: transform .2s;
+
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    text-shadow: 1px 1px 2px #513e5c;
+}
+
+.submit:hover {
+    cursor: pointer;   
+    transform: scale(1.05);
+}
+
+.footer {
+    margin: auto;
+    padding-top: 10vw;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-lines {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+a {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #69849b;
+}

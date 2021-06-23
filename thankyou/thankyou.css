@@ -1,0 +1,36 @@
+body {
+    background-color: #a9bcc6;
+    font-family: 'Heebo', sans-serif;
+    color: #02334a;
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.footer {
+    margin: auto;
+    padding-top: 10vw;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-lines {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+a {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #69849b;
+}

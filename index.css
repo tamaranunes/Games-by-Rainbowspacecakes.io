@@ -1,0 +1,65 @@
+body {
+    background-color: #a9bcc6;
+}
+
+.main {
+    margin: auto;
+    padding-top: 5em;
+    width: 80%;
+}
+
+.welcome-section {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px #798f8c;
+}
+
+h3,h1 {
+    letter-spacing: 0.5vw;
+    padding: 1em;
+}
+
+p {
+    letter-spacing: 0.2vw;
+    padding-bottom: 1em;
+}
+
+.enter-button {
+    background-color: #c7aabc;
+    box-shadow: 0em 0.5em 0.5em 0em #513e5c;
+    border: none;
+    height: 5vw;
+    width: 20vw;
+    transition: transform .2s;
+
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    text-shadow: 1px 1px 2px #513e5c;
+}
+
+.enter-button:hover {
+    /*color: #02334a;*/
+    cursor: pointer;   
+    transform: scale(1.05);
+}
+
+.footer {
+    margin: auto;
+    padding-top: 30vw;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: #02334a;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #69849b;
+}
